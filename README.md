@@ -75,3 +75,16 @@ Each branch has its own `README.md` with setup instructions and usage examples. 
 
 ```bash
 git checkout <branch-name>
+
+
+## 👥 Authors
+
+- **Muazzam Khan**
+- **Laiba Muhammad Ali** 
+- **Maria Ashfaq** 
+- **Aqsa Zaib**
+
+**Supervisor:**  
+Prof. Dr. Shehnila Zardari
+Chairperson, Department of Software Engineering
+NED University of Engineering and Technology  
