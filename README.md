@@ -87,5 +87,5 @@ git checkout <branch-name>
 
 **Supervisor:**  
 Prof. Dr. Shehnila Zardari <br>
-Chairperson, Department of Software Engineering
+Chairperson, Department of Software Engineering <br>
 NED University of Engineering and Technology  
