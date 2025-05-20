@@ -1,0 +1,9 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore all PDF files
+*.pdf
+
+*.gpkg
+
+node_modules

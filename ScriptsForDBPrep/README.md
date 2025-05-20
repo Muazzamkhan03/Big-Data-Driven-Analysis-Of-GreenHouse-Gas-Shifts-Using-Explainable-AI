@@ -1,0 +1,1 @@
+### This folder contains the scripts that were used to create the relational database
