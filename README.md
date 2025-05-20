@@ -75,6 +75,7 @@ Each branch has its own `README.md` with setup instructions and usage examples. 
 
 ```bash
 git checkout <branch-name>
+```
 
 
 ## 👥 Authors
