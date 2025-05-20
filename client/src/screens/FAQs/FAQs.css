@@ -1,0 +1,32 @@
+
+/* General Styles */
+@import "../../constants/ColorConstants.css";
+.main-container {
+    background-color: var(--background);
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .faqs-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 80px auto;
+  }
+  
+
+  .head1{
+    width: 100%;
+    background-color:var(--chart4);
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: var(--black);
+    justify-content: center;
+    font-weight: 500;
+  }
+
+  .head1 p{
+    font-weight: 700;
+    font-size: 50px;
+  }

@@ -1,0 +1,19 @@
+.dashboard-container {
+  width: 100%;
+  margin: 1em;
+  background-color: var(--background);
+  
+}
+
+.css-lohd6h-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+
+.css-16kozi8-MuiSlider-mark {
+  background-color:transparent !important;
+}
+
+
+/* .css-1r16xm3 {
+  margin: 1em;
+} */

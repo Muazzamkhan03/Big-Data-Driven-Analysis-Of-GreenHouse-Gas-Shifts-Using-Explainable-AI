@@ -1,0 +1,29 @@
+.field-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .field-container label {
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .field-container input {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .update-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

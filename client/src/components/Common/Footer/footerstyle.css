@@ -1,0 +1,96 @@
+.footer {
+    background-color: var(--secondary-background);
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: "Poppins";
+    /* width: 100%;  */
+    margin-top: 50px;
+    /* position: fixed; */
+  }
+ 
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .icon {
+    color:var(--secondary);
+    font-size: 18px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .links-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links-group h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .links-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links-group li {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid var(--accent);
+    margin-top: 20px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons .icon {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .social-icons .icon:hover {
+    color: var(--secondary);
+  }
+  
+  .logo-footer-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: var(--black25);
+  }
+  .logo-foot-box{
+    display: flex;
+    width: 400px;
+justify-content: space-between;
+  }

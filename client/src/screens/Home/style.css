@@ -1,0 +1,48 @@
+/* Reset body margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  /* justify-content: center; */
+  font-family: Arial, sans-serif;
+}
+
+.main-container{
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar container styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a2c2f;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Page content below the fixed navbar */
+.page-content {
+  margin-top: 80px; /* Adjust this based on navbar height */
+}
+.content-container {
+  display: flex;
+  margin-top: 80px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* min-height: 80vh; */
+  /* Adjust height as needed */
+  flex-direction: column;
+  width: 100%;
+  /* height: 1000vh; */
+  font-family: "Poppins";
+  justify-content: center;
+  align-items: center;
+  font-weight: "bold";
+}

@@ -1,0 +1,99 @@
+@import "../../constants/ColorConstants.css";
+  
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: var(--background);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* margin: 0; */
+    margin: 0;
+    padding: 0;
+  }
+
+  .forgot-pass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* width: 100%; */
+  }
+  
+  .forgot-pass-card {
+    background-color: var(--secondary-background);
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 450px;
+  }
+  
+  .forgot-pass-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .forgot-pass-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #c4c4c4;
+  }
+  
+  .forgot-pass-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .forgot-pass-label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .forgot-pass-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--secondary-background);
+    color: #fff;
+  }
+  
+  .forgot-pass-input::placeholder {
+    color: #bbb;
+  }
+  .forgot-pass-button {
+    background-color: var(--accent);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .forgot-pass-button:hover {
+    background-color:var(--accent);
+  }
+  
+  .forgot-pass-footer {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+  }
+  
+  .forgot-pass-back-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .forgot-pass-back-link:hover {
+    text-decoration: underline;
+  }
+  

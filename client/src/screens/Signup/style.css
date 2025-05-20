@@ -1,0 +1,141 @@
+/* General Styles */
+@import "../../constants/ColorConstants.css";
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color:var(--background);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* margin: 0; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for Signup */
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Signup Box */
+  .signup-box {
+    background-color: var(--secondary-background);
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* Avatar Placeholder */
+  .avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #808080;
+    /* border-radius: 20%; */
+    margin: 0 auto 20px;
+  }
+  
+  /* Form */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form label {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .signup-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:var(--secondary-background);
+    color: #fff;
+  }
+  
+  .signup-form input::placeholder {
+    color: #bbb;
+  }
+  
+  /* Password Strength */
+  .password-strength {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  
+  .strength-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #555;
+    border-radius: 3px;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .strength-indicator {
+    height: 100%;
+    border-radius: 3px;
+  }
+  
+  .strength-indicator.strong {
+    width: 100%;
+    background-color: #24e02b;
+  }
+  
+  /* CAPTCHA */
+  .captcha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .captcha label {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Create Account Button */
+  .create-account-btn {
+    background-color:var(--accent);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .create-account-btn:hover {
+    background-color: var(--accent);
+  }
+  
+  /* Signin Option */
+  .signin-option {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signin-option .sign-in-link {
+    color:var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signin-option .sign-in-link:hover {
+    text-decoration: underline;
+  }
+  
+  a:hover{
+    text-decoration: none;
+  }
