@@ -1,0 +1,61 @@
+{
+    "manufacturing": [
+      "cement",
+      "aluminum",
+      "petrochemical-steam-cracking",
+      "iron-and-steel",
+      "textiles-leather-apparel",
+      "pulp-and-paper",
+      "chemicals"
+    ],
+    "agriculture": [
+      "manure-left-on-pasture-cattle",
+      "enteric-fermentation-cattle-pasture",
+      "manure-management-cattle-operation",
+      "cropland-fires",
+      "synthetic-fertilizer-application"
+    ],
+    "forestry-and-land-use": [
+      "net-wetland",
+      "forest-land-degradation",
+      "net-shrubgrass",
+      "forest-land-clearing",
+      "wetland-fires",
+      "net-forest-land",
+      "forest-land-fires",
+      "shrubgrass-fires",
+      "water-reservoirs",
+      "removals"
+    ],
+    "mineral-extraction": [
+      "copper-mining",
+      "bauxite-mining",
+      "iron-mining"
+    ],
+    "fossil-fuel-operations": [
+      "oil-and-gas-production",
+      "oil-and-gas-transport",
+      "oil-and-gas-refining",
+      "coal-mining"
+    ],
+    "transportation": [
+      "international-shipping",
+      "domestic-aviation",
+      "international-aviation",
+      "domestic-shipping",
+      "road-transportation"
+    ],
+    "buildings": [
+      "non-residential-onsite-fuel-usage",
+      "residential-onsite-fuel-usage"
+    ],
+    "power": [
+      "electricity-generation"
+    ],
+    "waste": [
+      "solid-waste-disposal",
+      "industrial-wastewater-treatment-and-discharge",
+      "domestic-wastewater-treatment-and-discharge"
+    ]
+}
+  
