@@ -24,6 +24,15 @@ The project is divided into multiple branches, each responsible for a different 
 
 Below is a breakdown of the different branches in this repository:
 
+### 🔹 `platform-dev`
+
+This is the main development environment for the user-facing visualisation platform. It includes:
+
+- Frontend UI 
+- Backend 
+- Integration with the databases
+- Integration with the model API
+
 ### 🔹 `data-preprocessing`
 
 This branch contains all the code and scripts used for:
@@ -44,15 +53,6 @@ This branch includes the machine learning model served via an API. It covers:
 ### 🔹 `model-deploy`
 
 Responsible for deploying the model API to a production or cloud environment
-
-### 🔹 `platform-dev`
-
-This is the development environment for the user-facing visualisation platform. It includes:
-
-- Frontend UI 
-- Backend 
-- Integration with the databases
-- Integration with the model API
 
 ### 🔹 `platform-deploy`
 
