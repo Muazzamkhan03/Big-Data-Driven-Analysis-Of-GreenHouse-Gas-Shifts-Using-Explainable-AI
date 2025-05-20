@@ -86,6 +86,6 @@ git checkout <branch-name>
 - **Aqsa Zaib**
 
 **Supervisor:**  
-Prof. Dr. Shehnila Zardari
+Prof. Dr. Shehnila Zardari <br>
 Chairperson, Department of Software Engineering
 NED University of Engineering and Technology  
