@@ -1,0 +1,8 @@
+.dashboard-container {
+  margin: 1em;
+  background-color: var(--background);
+}
+
+.css-173tnw0-MuiButtonBase-root-MuiIconButton-root .Mui-disabled{
+  color: var(--secondary-background) !important;
+}

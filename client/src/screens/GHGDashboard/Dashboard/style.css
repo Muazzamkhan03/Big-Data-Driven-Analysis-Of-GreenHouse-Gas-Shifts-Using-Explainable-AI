@@ -1,0 +1,13 @@
+html, body {
+  overflow-x: hidden;
+  width: 100vw;
+  background-color: var(--background);
+}
+
+.dashboard-container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--background);
+}
+

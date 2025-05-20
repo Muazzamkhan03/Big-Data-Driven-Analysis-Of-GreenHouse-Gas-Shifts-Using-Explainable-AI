@@ -1,0 +1,121 @@
+/* General Styles */
+@import "../../constants/ColorConstants.css";
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: var(--background);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* margin: 0; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for Login */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background-color: var(--secondary-background);
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 450px;
+  }
+  
+  /* Avatar Placeholder */
+  .avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #808080;
+    /* border-radius: 20%; */
+    margin: 0 auto 20px;
+  }
+  
+  /* Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--secondary-background);
+    color: #fff;
+  }
+  
+  .login-form input::placeholder {
+    color: #bbb;
+  }
+  
+  /* Options (Remember me + Forgot Password) */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .options .forgot-password {
+    color:var(--accent);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .options .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sign In Button */
+  .sign-in-btn {
+    background-color: var(--accent);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: var(--accent);
+  }
+  
+  /* Signup Option */
+  .signup-option {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup-option .sign-up-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-option .sign-up-link:hover {
+    text-decoration: underline;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }

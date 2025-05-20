@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h1{
+    font-size: 119px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h2{
+    font-size: 84px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h3{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h4{
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h5{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h6{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h7{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.h7thin{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.para{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}

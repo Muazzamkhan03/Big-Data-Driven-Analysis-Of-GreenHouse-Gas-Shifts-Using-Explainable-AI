@@ -1,0 +1,14 @@
+.faq-category {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: var(--secondary-background);
+    border-radius: 5px;
+  }
+  
+  .faq-category-title {
+    font-size: 2.5rem;
+    color:white;
+    margin-bottom: 10px;
+  }
+  
+  

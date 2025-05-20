@@ -1,0 +1,89 @@
+/* Container for the entire section */
+.section1-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    /* background-color: ; */
+    color: white;
+  }
+  
+  .section1-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .section1-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section1-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: var(--secondary);
+  }
+  
+  .section1-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn:hover{
+    border: 1px solid var(--accent);
+  }
+  
+  .start-btn {
+    background-color: var(--accent);
+    color: black;
+  }
+  
+  .learn-btn {
+    background-color: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+  }
+  
+  .section1-image {
+    max-width: 40%;
+  }
+  
+  .globe-placeholder {
+    width: 300px;
+    height: 300px;
+    background: url('../../assets/globe.png') no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 425px) {
+
+
+.section1-container{
+    flex-direction: column;
+    padding: 0px;
+    justify-content: left;
+}
+.section1-title{
+    font-size: 15px;
+}
+.section1-description{
+    font-size: 12px;
+}
+.btn{
+    font-size: 10px;
+    padding: 5px;
+}
+.section1-image{
+    max-width: 100%;
+}
+  }

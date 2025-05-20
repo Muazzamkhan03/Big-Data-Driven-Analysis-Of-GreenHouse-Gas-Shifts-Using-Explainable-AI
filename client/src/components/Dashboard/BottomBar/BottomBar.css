@@ -1,0 +1,10 @@
+.dashboard-BottomBar {
+  background-color: #1f2e2c;
+  border-top: 2px solid #a6c700;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+}

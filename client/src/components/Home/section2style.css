@@ -1,0 +1,51 @@
+/* Section container styling */
+.section2-container {
+    background-color: var(--secondary-background);
+    color: var(--primary);
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    /* margin: 50px auto; */
+    margin-top: 50px;
+    /* max-width: 1200px; */
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+  }
+  /* .text{
+    max-width: 800px;
+    padding: 50px;
+  } */
+  /* Title styling */
+  .section2-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Description styling */
+  .section2-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #a0a0a0;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  /* Button styling */
+  .section2-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #a7d81c;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .section2-button:hover {
+    background-color: #8fb619;
+  }
+  

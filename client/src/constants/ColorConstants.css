@@ -1,0 +1,27 @@
+:root{
+    --primary: #E7F9F7;
+    --secondary: #8DE2DB;
+    --error: #F93C00;
+    --success: #24E02B;
+    --black: #292929;
+    --black75: #180D08;
+    --black50: #493F3B;
+    --black25: #928A88;
+    --black10: #C9C2C1;
+    --background: #171F12;
+    --accent: #ABD006;
+    --secondary-background: #1F2E2C;
+    --chart1: #ABD006;
+    --chart2: #86A305;
+    --chart3: #18B87E;
+    --chart4: #18B87E;
+}
+
+
+/* ************************ SAMPLE VARIABLE USAGE IN A CSS FILE  *********************
+
+@import "../constants/ColorConstants.css";
+
+body{
+    background: var(--background);
+} */
